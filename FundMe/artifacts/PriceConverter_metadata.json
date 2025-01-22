@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"FundMe/PriceConverter.sol": "PriceConverter"
+			"FundMe/FundMe.sol": "PriceConverter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -40,12 +40,12 @@
 				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
 			]
 		},
-		"FundMe/PriceConverter.sol": {
-			"keccak256": "0xbfa07162df2626bdb1d2e142b363048c82674583be169056812574e66d85bb2d",
+		"FundMe/FundMe.sol": {
+			"keccak256": "0x269f7499454c36c9c740eea0209989092b02256f1422e2a30926917611223d10",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://85935ce1b93b141739b1d2c67a52c84aa00baad47b93e580209659c90503c395",
-				"dweb:/ipfs/QmQwBvAqzFoMSZuj9GggyVetNPUpfCvd2txuW3RY41rMiW"
+				"bzz-raw://c5fa938ef03818f6502f1e629405efe7a3b046723efaff91aa0f025006073d32",
+				"dweb:/ipfs/QmZDoVPYcQpB9i1NwvxnHtrCvbGNi45CdT2KCAFS2moV89"
 			]
 		}
 	},

@@ -1,7 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
 
-error notEnoughtBlocks();
+import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";
+
+error notEnoughtBlocks(string message);
 
 contract FallbackExample {
     uint256 public receiveResult;
@@ -9,9 +11,9 @@ contract FallbackExample {
 
     function getReveive() view public returns (uint256){
         if(receiveResult < 2){
-            revert notEnoughtBlocks();
+            revert notEnoughtBlocks({message: "blocks should be more"});
         }
-        return fallbackResult;
+        return receiveResult;
     }
 
     receive() external payable { 

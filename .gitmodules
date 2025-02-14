@@ -7,3 +7,6 @@
 [submodule "Foundry/foundry-lottary/lib/foundry-devops"]
 	path = Foundry/foundry-lottary/lib/foundry-devops
 	url = https://github.com/Cyfrin/foundry-devops
+[submodule "Foundry/foundry-nft/lib/foundry-devops"]
+	path = Foundry/foundry-nft/lib/foundry-devops
+	url = https://github.com/Cyfrin/foundry-devops
